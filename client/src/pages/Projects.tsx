@@ -20,12 +20,12 @@ const Projects: React.FC = () => {
 
         <ProjectCard title="Driving GUI"
           description="A GUI for controlling FRC robots with the same controls as StarCraft II."
-          imageUrl="https://blog.scottlogic.com/ceberhardt/assets/chip8/emulator.png"
+          imageUrl="/images/DrivingGUI.png"
           link="https://github.com/darknessraider/DrivingGUI" />
 
         <ProjectCard title="Coffee Maker"
           description="Admittedly a very simple project and the repos a little messed up but it controls my coffee maker remotely with an esp-32 that flips a relay."
-          imageUrl="https://blog.scottlogic.com/ceberhardt/assets/chip8/emulator.png"
+          imageUrl="https://blog.scottlogic.com/ceberhardt/assets/chip8/emulator.png" // TODO: take a picture of the coffee maker setup
           link="https://github.com/darknessraider/coffee-maker" />
 
       </Row>
