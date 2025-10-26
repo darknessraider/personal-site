@@ -1,9 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import string from 'vite-plugin-string'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(),
+  string({
+    include: "**/*.md",
+  })
+  ],
   server: {
     proxy: {
       '/api': 'http://localhost:3001',
